@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*-
 # @Author: Lenovo
 # @Date:   2019-05-27 09:06:05
-# @Last Modified by:   Lenovo
-# @Last Modified time: 2019-05-27 19:49:01
+# @Last Modified by:   zy19950209
+# @Last Modified time: 2019-05-28 09:11:27
 # 冒泡排序：基本思想----两两比较相邻的关键字，如果反序则交换，知道没有反序的记录为止
 # 优化冒泡排序的原因：如果进行一趟但是没有进行数据交换，说明已经有序，break即可，故加入flag------这点面试常考
-# 稳定的算法
+# 稳定算法
 
 
 def BubbleSort(k, n):
